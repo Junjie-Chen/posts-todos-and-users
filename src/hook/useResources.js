@@ -10,7 +10,7 @@ const useResources = resource => {
 
       setResources(response.data);
     })(resource);
-  });
+  }, [resource]);
 
   return resources;
 };
