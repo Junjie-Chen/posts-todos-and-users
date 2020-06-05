@@ -1,4 +1,5 @@
 import React from 'react';
+import ResourceList from './ResourceList';
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
         <button>Todos</button>
         <button>Users</button>
       </div>
+      <ResourceList />
     </div>
   );
 };
